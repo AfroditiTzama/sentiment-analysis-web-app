@@ -20,7 +20,7 @@
 
 1. Κλωνοποιήστε το αποθετήριο:
    ```bash
-   git clone [(https://sentiment-analysis-web-app-c3e8ooefwt3w9m6joltsa2.streamlit.app/)]
+   git clone https://sentiment-analysis-web-app-c3e8ooefwt3w9m6joltsa2.streamlit.app/
 
    Εγκαταστήστε τις βιβλιοθήκες:
    pip install -r requirements.txt
