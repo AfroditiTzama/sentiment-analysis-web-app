@@ -1,29 +1,60 @@
 # AI Sentiment Analyzer Pro
 
-Μια ολοκληρωμένη web εφαρμογή ανάλυσης συναισθήματος (Sentiment Analysis) που χρησιμοποιεί Τεχνητή Νοημοσύνη για να κατηγοριοποιεί κείμενα ως Θετικά, Αρνητικά ή Ουδέτερα.
+An end-to-end web application for **Sentiment Analysis** powered by Artificial Intelligence.  
+It classifies text into **Positive**, **Negative**, or **Neutral** sentiments.
 
-##  Δυνατότητες
-- **Live Ανάλυση:** Γράψτε το δικό σας κείμενο και δείτε το αποτέλεσμα αμέσως.
-- **Μαζική Ανάλυση (Bulk):** Ανεβάστε ένα αρχείο CSV και το AI θα αναλύσει χιλιάδες γραμμές αυτόματα.
-- **Οπτικοποίηση:** Αυτόματη δημιουργία γραφημάτων (Pie Charts) για την κατανομή των συναισθημάτων.
-- **Export:** Δυνατότητα λήψης των αποτελεσμάτων σε νέο αρχείο CSV.
+---
 
-##  Τεχνολογίες
+##  Live Demo
+
+👉 [Try the app here](https://sentiment-analysis-web-app-c3e8ooefwt3w9m6joltsa2.streamlit.app/)
+
+---
+
+##  Features
+
+- **Real-time Analysis**  
+  Enter your own text and instantly get sentiment results.
+
+- **Bulk Analysis (CSV Upload)**  
+  Upload a CSV file and analyze thousands of text entries automatically.
+
+- **Data Visualization**  
+  Automatically generates charts (e.g., pie charts) to display sentiment distribution.
+
+- **Export Results**  
+  Download processed results as a new CSV file.
+
+---
+
+##  Technologies Used
+
 - **Python 3.x**
-- **Streamlit** (Web Interface)
-- **NLTK / VADER** (AI Sentiment Model)
-- **Pandas** (Data Processing)
-- **Matplotlib** (Charts)
+- **Streamlit** – Web interface
+- **NLTK / VADER** – Sentiment analysis model
+- **Pandas** – Data processing
+- **Matplotlib** – Data visualization
 
-##  Εγκατάσταση και Χρήση
-Για να τρέξετε την εφαρμογή τοπικά:
+---
 
-1. Κλωνοποιήστε το αποθετήριο:
-   ```bash
-   git clone https://sentiment-analysis-web-app-c3e8ooefwt3w9m6joltsa2.streamlit.app/
+##  Installation & Usage
 
-   Εγκαταστήστε τις βιβλιοθήκες:
-   pip install -r requirements.txt
+To run the application locally:
 
-   Τρέξτε την εφαρμογή:
-   streamlit run app.py
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/sentiment-analyzer-pro.git
+cd sentiment-analyzer-pro
+```
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the app:
+streamlit run app.py
+
+## Future Improvements
+Support for multiple languages
+Integration with advanced NLP models (e.g., Transformers)
+Dashboard with advanced analytics
+Social media sentiment analysis
