@@ -54,7 +54,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## Future Improvements
--- Support for multiple languages
--- Integration with advanced NLP models (e.g., Transformers)
--- Dashboard with advanced analytics
--- Social media sentiment analysis
+- Support for multiple languages
+- Integration with advanced NLP models (e.g., Transformers)
+- Dashboard with advanced analytics
+- Social media sentiment analysis
